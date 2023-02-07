@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+
+    /* Desktop Nav Bar */
+
+    .item-menu {
+        display: none;
+    }
+    
+    header{
+    /* border: 1px solid red; */
+    height: 10vh;
+    }
+
+ .desktop-ul{
+   width: 100%;
+   padding-top: 2rem;
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   left: 29%;
+   position: absolute;
+    }
+    
+.desktop-ul .desktop-link a{
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 20px;
+   color: #272a31;
+ }
+
+}
