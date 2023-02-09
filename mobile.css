@@ -255,7 +255,7 @@ hr {
 }
 
 .featured-group .featured-item {
-  
+  padding-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -303,6 +303,7 @@ hr {
   font-size: 1rem;
   font-weight: 700;
   color: #272a31;
+  margin-top: -5%;
 }
 
 .featured-item-1 .last-featured {
