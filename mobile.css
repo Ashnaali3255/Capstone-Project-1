@@ -73,6 +73,15 @@ nav a {
   margin-top: 4%;
 }
 
+.nav-logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
 .menu-icon .close a {
   font-weight: lighter;
   font-size: 22px;
@@ -388,15 +397,6 @@ hr {
 
 .nav-logo img {
   width: 70%;
-}
-
-.nav-logo a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 900;
-  font-style: italic;
-  display: flex;
-  align-items: center;
 }
 
 .nav-logo a h3 {
