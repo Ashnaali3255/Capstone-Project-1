@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 * {
   font-family: 'Lato', sans-serif;
@@ -18,6 +17,7 @@ header nav {
   gap: 25%;
   background-color: white;
 }
+
 /* Menu changes */
 .menu-icon {
   position: fixed;
@@ -26,7 +26,7 @@ header nav {
   left: 0;
   right: 0;
   top: 0;
-  background-color: #EC5242;
+  background-color: #ec5242;
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
   text-align: left;
@@ -54,6 +54,16 @@ header a {
   font-size: 18px;
 }
 
+nav a {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  text-decoration: none;
+  color: grey;
+  display: flex;
+}
 
 .menu-icon a {
   font-family: 'Poppins', sans-serif;
@@ -67,6 +77,7 @@ header a {
   font-weight: lighter;
   font-size: 22px;
 }
+
 /* Menu changes finish */
 .item-menu {
   float: left;
@@ -74,24 +85,8 @@ header a {
   cursor: pointer;
 }
 
-.item-menu:hover{
-  color: #EC5242;
-}
-
-header a {
-  margin: 0 12px;
-  font-size: 18px;
-}
-
-nav a {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 20px;
-  text-decoration: none;
-  color: grey;
-  display: flex;
+.item-menu:hover {
+  color: #ec5242;
 }
 
 .desktop-ul {
@@ -104,7 +99,7 @@ nav a {
 
 /* Home Page */
 
-.home-page{
+.home-page {
   background-image: url("./images/background\ image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,16 +111,19 @@ nav a {
   font-style: normal;
   font-size: 25px;
   margin-top: 5%;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .big-heading {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-size: 44px;
-  /* background-image:url(./images/toronto\ sunset\ pic.webp) */
-  color: #EC5242;
+  color: #ec5242;
   margin: 0;
+  background: url(./images/toronto\ sunset\ pic.webp) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .para {
@@ -138,12 +136,12 @@ nav a {
   line-height: 1.5rem;
   width: 90%;
   height: min-content;
-   margin-left: 1rem;
-   margin-top: 10%;
+  margin-left: 1rem;
+  margin-top: 10%;
 }
 
 .date {
-  color: #272A31;
+  color: #272a31;
   font-size: 24px;
   font-weight: 900;
   margin-top: 5%;
@@ -152,7 +150,7 @@ nav a {
 }
 
 .location {
-  color: #272A31;
+  color: #272a31;
   margin-left: 1%;
   font-size: 15px;
 }
@@ -160,7 +158,7 @@ nav a {
 /* Main section  */
 
 .about {
-  background-color: #272A31;
+  background-color: #272a31;
   height: 810px;
   background-image: url("./images/background\ of\ main\ section.png");
   background-repeat: repeat;
@@ -177,7 +175,7 @@ nav a {
 
 hr {
   width: 11%;
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
   margin-left: 45%;
   margin-top: 1%;
   margin-bottom: 10%;
@@ -186,30 +184,30 @@ hr {
 .list-item {
   display: flex;
   flex-direction: row;
-  border: 1px solid #272A31;
+  border: 1px solid #272a31;
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  background: #756d6d;;
+  background: #756d6d;
 }
 
 .list-item h3 {
-width: 25%;
-color: #EC5242;
+  width: 25%;
+  color: #ec5242;
 }
 
-.graph{
+.graph {
   width: 50%;
   padding: 1rem;
   color: white;
 }
 
-.end{
+.end {
   display: none;
 }
 
-.button{
-  background-color: #EC5242;
+.button {
+  background-color: #ec5242;
   padding: 1rem;
   color: white;
   display: flex;
@@ -217,4 +215,197 @@ color: #EC5242;
   justify-content: center;
   margin-left: 25%;
   margin-top: 1rem;
+}
+
+/* Founders */
+
+.featured-container {
+  width: 90%;
+  margin: 10% auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.featured-container .featured-title {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 2rem;
+  text-align: center;
+  color: #272a31;
+}
+
+.featured-container hr {
+  width: 25%;
+  margin-left: 10%;
+}
+
+.featured-container .featured-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.featured-group .featured-item-2 {
+  display: none;
+}
+
+.featured-group .featured-item {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-item .featured-img {
+  width: 48%;
+  padding: 1rem;
+  margin-right: 1.2rem;
+  background-image: url("../images/corner.jpg");
+  background-position: -2.5rem -2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured-img img {
+  width: 100%;
+}
+
+.featured-item .featured-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.featured-content h2 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #272a31;
+}
+
+.featured-content h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #e57e7e;
+  padding-bottom: 0.2rem;
+}
+
+.featured-content hr {
+  border: 1px solid #d3d3d3;
+  width: 14%;
+}
+
+.featured-content p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.featured-item-1 .last-featured {
+  display: none;
+}
+
+.featured-btn {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.featured-btn span {
+  transform: rotate(90deg);
+  color: #e57e7e;
+}
+
+.footer-page {
+  width: 100%;
+  height: 100vh;
+}
+
+.footer-page .top {
+  background-color: #272a31;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  gap: 2rem;
+  margin-top: 69%;
+}
+
+.top .partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.partners li {
+  color: #d3d3d3;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.top hr {
+  width: 10%;
+  margin-left: 0%;
+  margin-top: -5%;
+}
+
+.top .about-title-1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.footer-page .bottom {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6rem;
+  gap: 2rem;
+}
+
+.bottom .nav-logo {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-left: 1.5rem;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 70%;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo a h3 {
+  padding-left: 0.3rem;
+  font-style: italic;
+  color: #e57e7e;
+}
+
+.rights p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
 }
