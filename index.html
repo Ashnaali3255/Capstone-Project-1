@@ -9,29 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz
-        ,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="desktop.css">
 </head>
-<!-- nav.logo: width,padding-left,padding-top -->
 <body>
     <main>
  <header>
  <nav>
-<a class="logo"><img src="./images/CC_Global_Summit_2015 logo.png" alt="img"></a>
+<a class="logo" href="./index.html"><img src="./images/CC_Global_Summit_2015 logo.png" alt="img"></a>
 <ul class="desktop-ul">
-<li class="desktop-link"><a href="#About">About</a></li>
+<li class="desktop-link"><a href="./about.html">About</a></li>
 <li class="desktop-link"><a href="#">Program</a></li>
 <li class="desktop-link"><a href="#">Join</a></li>
 <li class="desktop-link"><a href="#">Sponser</a></li>
 <li class="desktop-link"><a href="#">News</a></li>
 <li class="desktop-link"><a href="#">CC Compaign</a></li>
 </ul>
-<!-- <div class="nav-list">
-<div class="nav-logo">
-<img src="./images/logo.jpg" alt="logo" />
-</div> -->
+    <div class="menu-icon">
+        <div class="item-closed"><a href="#" class="closing"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </div>
+        <div class="mobile-nav"><a href="./index.html" class="closing">Home</a></div>
+        <div class="mobile-nav"><a href="./about.html" class="closing">About</a></div>
+        <div class="mobile-nav"><a href="#" class="closing">Join</a></div>
+      </div>
 <div class="item-menu"><a href="#" class="openMenu"><i class="fa fa-bars"></i></a></div>
 </nav>
 </header>
@@ -46,37 +46,38 @@ a positive change with people from over 80 countries is taking place in October,
 <section class="about">
     <h2 class="about-section">Main Program</h2>
     <hr>
-    <ul class="about-container">
-        <li class="list-item">
+    <div class="about-container">
+        <div class="list-item">
            <div class="image"><img src="./images/diversity_2_FILL0_wght400_GRAD0_opsz48.svg" alt="img"></div>  
             <h3>Lecture</h3>
             <p class="graph">Listen to the speakers from various countries about the messages of sharing and opening.</p>
-        </li>
-        <li class="list-item">
+        </div>
+        <div class="list-item">
             <div class="image"><img src="./images/desktop_windows_FILL0_wght400_GRAD0_opsz48.svg" alt="img"></div>
             <h3>CC Exhibition</h3>
             <p class="graph">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
-        </li>
-        <li class="list-item">
+        </div>
+        <div class="list-item">
             <div class="image"><img src="./images/forum_FILL0_wght400_GRAD0_opsz48.svg" alt="img"></div>
             <h3>Forum</h3>
             <p class="graph">Have the time to share your thoughts and opinions with experts for each topic.</p>
-        </li>
-        <li class="list-item">
+        </div>
+        <div class="list-item">
             <div class="image"><img src="./images/home_repair_service_FILL0_wght400_GRAD0_opsz48.svg" alt="img"></div>
             <h3>Workshop</h3>
             <p class="graph">Try creating your own work using open source license rather than just watching at it.</p>
-        </li>
-        <li class="list-item">
+        </div>
+        <div class="list-item">
             <div class="image"><img src="./images/hub_FILL0_wght400_GRAD0_opsz48.svg" alt="img"></div>
             <h3>CC Ignite</h3>
             <p class="graph">Get opportunities to network with CC affiliates around the world, also after the summit.</p>
-        </li>
-    </ul>
-    <a class="footer">See the whole Program</a>
+        </div>
+    </div>
+    <div class="end"><u>See the whole Program</u></div>
+    
     <button class="button">Join CC Global Summit 2015</button>
 </section>
 </main>
+<script src="./js/main.js"></script>
 </body>
-
 </html>
