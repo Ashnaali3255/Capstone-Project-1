@@ -10,10 +10,6 @@
 
 /* Navbar */
 
-/* header {
-    width: 75%;
-  } */
-
 header nav {
   display: flex;
   align-items: center;
@@ -22,17 +18,63 @@ header nav {
   gap: 25%;
   background-color: white;
 }
+/* Menu changes */
+.menu-icon {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #EC5242;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  display: none;
+}
 
-/* .item-closed {
-    margin-left: 280px;
-  } */
+.item-closed {
+  margin-left: 280px;
+  padding-top: 5%;
+}
+
+.menu-icon .close {
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
+}
+
+.mobile-nav {
+  padding: 15px 28px;
+}
+
+header a {
+  margin: 0 12px;
+  font-size: 18px;
+}
+
+
+.menu-icon a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 4%;
+}
+
+.menu-icon .close a {
+  font-weight: lighter;
+  font-size: 22px;
+}
+/* Menu changes finish */
 .item-menu {
   float: left;
   padding: 10px;
   cursor: pointer;
 }
 
-.item-menu::hover{
+.item-menu:hover{
   color: #EC5242;
 }
 
@@ -81,6 +123,7 @@ nav a {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-size: 44px;
+  /* background-image:url(./images/toronto\ sunset\ pic.webp) */
   color: #EC5242;
   margin: 0;
 }
@@ -114,14 +157,18 @@ nav a {
   font-size: 15px;
 }
 
-/* About section */
+/* Main section  */
 
 .about {
-  background: #272A31;
+  background-color: #272A31;
+  height: 810px;
+  background-image: url("./images/background\ of\ main\ section.png");
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .about-section {
-  padding-top: 15%;
+  padding-top: 9%;
   margin-top: 10%;
   display: flex;
   align-items: center;
@@ -129,9 +176,9 @@ nav a {
 }
 
 hr {
-  width: 40%;
+  width: 11%;
   border: 1px solid #EC5242;
-  margin-left: 30%;
+  margin-left: 45%;
   margin-top: 1%;
   margin-bottom: 10%;
 }
@@ -157,7 +204,7 @@ color: #EC5242;
   color: white;
 }
 
-.footer{
+.end{
   display: none;
 }
 

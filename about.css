@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about-logo {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 25%;
+    background-color: white;
+}
+
+/* Menu changes */
+.menu-icon {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #EC5242;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    text-align: left;
+    display: none;
+}
+
+.item-closed {
+    margin-left: 280px;
+    padding-top: 5%;
+}
+
+.menu-icon .close {
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 38px;
+    font-weight: lighter;
+}
+
+.mobile-nav {
+    padding: 15px 28px;
+}
+
+header a {
+    margin: 0 12px;
+    font-size: 18px;
+}
+
+
+.menu-icon a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 4%;
+}
+
+.menu-icon .close a {
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* Menu changes finish */
+.item-menu {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item-menu:hover {
+    color: #EC5242;
+}
+
+header a {
+    margin: 0 12px;
+    font-size: 18px;
+}
+
+nav a {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-decoration: none;
+    color: grey;
+    display: flex;
+}
+
+.desktop-ul {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+.small {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #EC5242;
+
+}
+
+.big {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #EC5242;
+    margin-left: 10%;
+}
+
+.lengthy {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    border: 4px solid #f3f2f2;
+    background-color: #f2efef;
+    color: #272a31;
+    margin-bottom: 0.7rem;
+    line-height: 1.5rem;
+    width: 90%;
+    height: min-content;
+    margin-left: 1rem;
+    margin-top: 10%;
+}
+
+.short {
+    color: #2A2131;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.address {
+    margin-left: 20%;
+}
+
+.sec-heading {
+    font-size: 30px;
+    margin: 10%;
+    color: #272A31;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.underline {
+    width: 11%;
+    border: 1px solid #EC5242;
+    margin-left: 45%;
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+
+.info {
+    margin-left: 3%;
+}
+
+.reminder {
+    font-size: 24px;
+    margin: 2%;
+    padding: 3%;
+}
+
+.pics-para {
+    margin: 5%;
+}
+
+.picture {
+    width: 100%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-logo {
+    border: 4px solid #D3D3D3;
+    padding: 5%;
+    margin: 10%;
+}
+
+.small-logo img {
+    width: 100%;
+}
+
+.partner {
+    background-color: #272A31;
+    width: 100%;
+}
+
+.line{
+    width: 11%;
+    border: 1px solid #EC5242;
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.social {
+    color: #D3D3D3;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.air {
+    width: 6%;
+}
+
+.footer{
+    width: 100%;
+    
+}
+.common{
+    width: 7%;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Desktop Nav Bar */
+
+    .item-menu {
+        display: none;
+    }
+
+    .about-logo {
+        display: flex;
+        width: 35%;
+        padding-left: 11%;
+        padding-top: 2%;
+    }
+
+    .about-logo img {
+        width: 40%;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    .desktop-ul {
+        width: 100%;
+        padding-top: 2rem;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        left: 25%;
+        position: absolute;
+    }
+
+    .desktop-ul .desktop-link a {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #272a31;
+    }
+
+    .small-logo {
+        border: 4px solid #D3D3D3;
+        padding: 5%;
+        margin: 10%;
+    }
+
+    .small-logo img {
+        width: 100%;
+    }
+}

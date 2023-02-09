@@ -1,5 +1,12 @@
 @media screen and (min-width: 768px) {
 
+  * {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
     /* Desktop Nav Bar */
 
     .item-menu {
@@ -9,6 +16,8 @@
     .logo{
         display: flex;
         width: 30%;
+        padding-left: 11%;
+        padding-top: 2%;
     }
 
     .logo  img{
@@ -27,7 +36,7 @@
    justify-content: center;
    align-items: center;
    gap: 1rem;
-   left: 29%;
+   left: 25%;
    position: absolute;
     }
     
@@ -53,6 +62,10 @@
 
   .big-heading{
     margin-left: 11%;
+    /* color: transparent; */
+    /* background-image:url(./images/toronto\ sunset\ pic.webp)
+    background-size:24px;
+    background-clip:text; */
   }
 
   .para{
@@ -86,9 +99,9 @@
     padding-top: 5%;
   }
 
-  .hr{
-    width: 12%;
-    margin-left: 44%;
+  hr{
+    width: 3%;
+    margin-left: 49%;
     margin-top: 0;
     margin-bottom: 5%;
   }
@@ -97,14 +110,32 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
-  .list-item h3{
+  .list-item{
     display: flex;
     flex-direction: column;
   }
 
-  .footer{
+  .image{
+    padding-top: 5%;
+  }
+
+  .list-item h3{
+    width: 25%;
+    color: #EC5242;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .graph{
+    width: fit-content;
+    text-align: center;
+  }
+
+  .end{
     display: flex;
     justify-content: center;
     align-items: center;
