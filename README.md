@@ -99,9 +99,9 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Github Flow Execution]**
-- [ ] **[Implementation on Mobile Version]**
-- [ ] **[Implementation on Desktop]
+- [ ] **[Feature_1]**
+- [ ] **[Feature_2]**
+- [ ] **[Feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
