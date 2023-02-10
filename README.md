@@ -145,10 +145,6 @@ Original design idea by Cindy Shin in Behance. Link is below:
 (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015/modules/192118207)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
