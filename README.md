@@ -101,7 +101,7 @@ Install this project with:
 
 - [ ] **[Github Flow Execution]**
 - [ ] **[Implementation on Mobile Version]**
-- [ ] **[Implementation on Desktop]
+- [ ] **[Implementation on Desktop]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
