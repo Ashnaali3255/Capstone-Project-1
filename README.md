@@ -108,9 +108,11 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
+
 - [ ] **[Github Flow Execution]**
 - [ ] **[Implementation on Mobile Version]**
 - [ ] **[Implementation on Desktop]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,10 +139,15 @@ Give it a ⭐️ If you like this project.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse.
 
+
 Original design idea by Cindy Shin in Behance. Link is below:
 
 (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015/modules/192118207)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- LICENSE -->
 
