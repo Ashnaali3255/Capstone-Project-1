@@ -37,6 +37,9 @@ HTML,CSS,JS
 
 - [Live Demo Link](https://ashnaali3255.github.io/Capstone-Project-1/)
 
+- [Loom Video Link](https://www.loom.com/share/a61117f4a89345e5bf551b667c546acd)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
