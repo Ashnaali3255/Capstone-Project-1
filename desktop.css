@@ -25,8 +25,9 @@
     width: 30%;
   }
 
-  header {
+  .head {
     height: 10vh;
+    border-bottom: 1px solid #d3d3d3;
   }
 
   .nav {
@@ -173,6 +174,7 @@
     flex-direction: row;
     gap: 7rem;
     align-items: center;
+    width: 85%;
   }
 
   .featured-group .featured-item {

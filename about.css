@@ -12,8 +12,9 @@
 }
 
 .about-me {
-  background-image: url(./images/toronto\ sunset\ pic.webp);
+  background-image: url(./images/background\ image.png);
   background-repeat: no-repeat;
+  background-position: 60rem 20rem;
 }
 
 header nav {
@@ -363,6 +364,7 @@ nav a {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    padding-top: 5rem;
   }
 
   .lengthy {
@@ -404,8 +406,8 @@ nav a {
 
   .underline {
     margin-top: -9%;
-    width: 3%;
-    margin-left: 48%;
+    width: 13%;
+    margin-left: 45%;
     color: #ec5242;
   }
 
@@ -468,19 +470,21 @@ nav a {
   .footer-desk {
     display: flex;
     background-color: #272a31;
+    justify-content: center;
+    gap: 2rem;
   }
 
   .footer-logo {
-    width: 26%;
-    margin-left: 50%;
+    width: 40%;
+    margin-left: 30%;
     margin-bottom: 20%;
     margin-top: 15%;
     background-color: #272a31;
   }
 
   .last-paragraph {
-    margin-top: 6%;
-    margin-left: 10%;
+    margin-top: 7%;
+    padding-right: 5rem;
     color: white;
   }
 }
