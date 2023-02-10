@@ -127,6 +127,7 @@ Give it a ⭐️ If you like this project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse.
+Original design idea by Cindy Shin in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
