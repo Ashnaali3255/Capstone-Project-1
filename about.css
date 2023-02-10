@@ -136,10 +136,6 @@ nav a {
   margin-top: 10%;
 }
 
-.more-lengthy {
-  display: none;
-}
-
 .short {
   color: #2a2131;
   margin-left: 5%;
@@ -166,10 +162,6 @@ nav a {
 
 .info {
   margin-left: 3%;
-}
-
-.more-info {
-  display: none;
 }
 
 .reminder {
@@ -295,6 +287,16 @@ nav a {
 
 .footer-desk {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .more-lengthy {
+    display: none;
+  }
+
+  .more-info {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -425,8 +427,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
-    margin-left: 38%;
+    width: 40%;
+    margin-left: 30%;
+    padding: 0%;
   }
 
   .small-logo img {

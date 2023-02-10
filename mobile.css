@@ -18,6 +18,10 @@ header nav {
   background-color: white;
 }
 
+.top {
+  display: none;
+}
+
 /* Menu changes */
 .menu-icon {
   position: fixed;
@@ -168,7 +172,7 @@ nav a {
 
 .about {
   background-color: #272a31;
-  height: 890px;
+  height: 940px;
   background-image: url("./images/background\ of\ main\ section.png");
   background-repeat: repeat;
   background-position: center;
@@ -223,12 +227,13 @@ hr {
 
 .button {
   background-color: #ec5242;
-  padding: 1rem;
+  padding: 1.5rem;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem auto;
+  margin: 2rem auto;
+  width: 70%;
 }
 
 /* Founders */
@@ -236,7 +241,7 @@ hr {
 .featured-container {
   width: 90%;
   margin: 10% auto;
-  height: 100vh;
+  height: 67vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -345,13 +350,13 @@ hr {
 
 .footer-page .top {
   background-color: #272a31;
-  height: 65%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 6rem;
   gap: 2rem;
-  margin-top: 69%;
+  margin-top: 90%;
 }
 
 .top .partners {
@@ -361,6 +366,7 @@ hr {
   list-style-type: none;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .partners li {
@@ -388,7 +394,7 @@ hr {
   width: 80%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 6rem;
+  padding-top: 5rem;
   gap: 2rem;
 }
 

@@ -10,6 +10,53 @@
 
   /* Desktop Nav Bar */
 
+  /* Top Bar */
+  .header {
+    background-color: #272a31;
+    list-style: none;
+  }
+
+  .top {
+    padding: 5px 5px;
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    height: 40%;
+  }
+
+  .top .facebook {
+    width: 55px;
+    height: 55px;
+    margin-left: 78%;
+    margin-bottom: -2.8%;
+  }
+
+  .top .twitter {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: -2%;
+    margin-left: -2.5%;
+  }
+
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+
+  .partners li {
+    font-size: 2.6rem;
+    font-weight: 900;
+  }
+
+  .top ul li {
+    list-style-type: none;
+    padding: 0 5px;
+  }
+
+  /* Top Bar Finish */
   .item-menu {
     display: none;
   }
@@ -23,11 +70,6 @@
 
   .logo img {
     width: 30%;
-  }
-
-  .head {
-    height: 10vh;
-    border-bottom: 1px solid #d3d3d3;
   }
 
   .nav {
@@ -101,6 +143,10 @@
 
   /* About Section */
 
+  .about {
+    height: 750px;
+  }
+
   .about-section {
     margin-top: -5%;
     padding-top: 5%;
@@ -108,7 +154,7 @@
 
   hr {
     width: 3%;
-    margin-left: 0%;
+    margin-left: 49%;
     margin-top: 0;
     margin-bottom: 5%;
   }
@@ -160,8 +206,12 @@
 
   /* Founders */
 
+  .featured {
+    margin-bottom: 0%;
+  }
+
   .featured-container {
-    height: 40vh;
+    height: 6vh;
     margin-top: 0%;
   }
 
@@ -219,11 +269,6 @@
     gap: 4rem;
   }
 
-  .partners li {
-    font-size: 2.6rem;
-    font-weight: 900;
-  }
-
   .top .about-title-1 {
     font-size: 2.3rem;
     font-weight: 700;
@@ -234,12 +279,26 @@
     margin-top: -3%;
   }
 
+  .footer-page .top {
+    margin-top: 70%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+  }
+
   .footer-page .bottom {
-    padding-top: 4rem;
+    padding-top: 6rem;
+
+    /* margin-right: 8%; */
+  }
+
+  .nav-logo {
+    margin-left: 5rem;
   }
 
   .rights p {
     font-size: 1.5rem;
     font-weight: 700;
+    margin-right: 5rem;
   }
 }
