@@ -36,9 +36,7 @@ HTML,CSS,JS
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://ashnaali3255.github.io/Capstone-Project-1/)
-
 - [Loom Video Link](https://www.loom.com/share/a61117f4a89345e5bf551b667c546acd)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,9 +99,9 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Github Flow Execution]**
+- [ ] **[Implementation on Mobile Version]**
+- [ ] **[Implementation on Desktop]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,11 +128,6 @@ Give it a ⭐️ If you like this project.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
