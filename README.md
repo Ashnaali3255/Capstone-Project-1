@@ -29,6 +29,15 @@ Create a Project, which can help to easy explorate profiles for Mobile Version.
 HTML,CSS,JS
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- KEY FEATURES -->
+
+## 🔭 Key Features <a name="key-features"></a>
+
+- [ ] **[Github Flow Execution]**
+- [ ] **[Implementation on both Mobile Version and Desktop Version]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -99,9 +108,11 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Feature_1]**
-- [ ] **[Feature_2]**
-- [ ] **[Feature_3]**
+
+- [ ] **[Github Flow Execution]**
+- [ ] **[Implementation on Mobile Version]**
+- [ ] **[Implementation on Desktop]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +139,11 @@ Give it a ⭐️ If you like this project.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+Original design idea by Cindy Shin in Behance. Link is below:
+
+(https://www.behance.net/gallery/29845175/CC-Global-Summit-2015/modules/192118207)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
