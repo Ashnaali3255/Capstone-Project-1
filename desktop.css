@@ -256,8 +256,8 @@
   .featured-btn {
     display: none;
   }
-
-  .top .partners {
+/* Partners */
+  .top.partners {
     gap: 4rem;
   }
 
@@ -283,7 +283,7 @@
 
     /* margin-right: 8%; */
   }
-
+/* Footer */
   .nav-logo {
     margin-left: 5rem;
   }
