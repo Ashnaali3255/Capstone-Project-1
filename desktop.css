@@ -21,30 +21,25 @@
     display: block;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
-    height: 40%;
   }
 
-  .top .facebook {
-    width: 55px;
-    height: 55px;
-    margin-left: 78%;
-    margin-bottom: -2.8%;
+  .top .facebook{
+    margin-bottom: 2%;
+    margin-left: 80%;
+    color: white;
+    
   }
 
-  .top .twitter {
-    width: 35px;
-    height: 35px;
-    border-radius: 10px;
-    margin-bottom: -2%;
-    margin-left: -2.5%;
-    margin-right: 0.5rem;
+  .top .twitter{
+    margin-bottom: 0%;
+    color: white;
   }
 
   .content {
     display: flex;
     justify-content: flex-end;
     color: white;
+    margin-top: -2%;
   }
 
   .partners li {
