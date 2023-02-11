@@ -23,14 +23,13 @@
     align-items: center;
   }
 
-  .top .facebook{
+  .top .facebook {
     margin-bottom: 2%;
     margin-left: 80%;
     color: white;
-    
   }
 
-  .top .twitter{
+  .top .twitter {
     margin-bottom: 0%;
     color: white;
   }
