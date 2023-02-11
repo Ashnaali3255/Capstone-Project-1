@@ -18,20 +18,20 @@
 
   .top {
     padding: 5px 5px;
-    display: block;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
   }
 
   .top .facebook{
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     margin-left: 80%;
     color: white;
     
   }
 
   .top .twitter{
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     color: white;
   }
 
