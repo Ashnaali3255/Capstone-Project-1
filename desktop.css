@@ -23,15 +23,12 @@
     align-items: center;
   }
 
-  .top .facebook{
-    /* margin-bottom: 2%; */
+  .top .facebook {
     margin-left: 80%;
     color: white;
-    
   }
 
-  .top .twitter{
-    /* margin-bottom: 2%; */
+  .top .twitter {
     color: white;
   }
 
@@ -39,7 +36,6 @@
     display: flex;
     justify-content: flex-end;
     color: white;
-    margin-top: -2%;
   }
 
   .partners li {
