@@ -23,16 +23,32 @@
     align-items: center;
   }
 
-  .top .facebook {
+  .top .facebook{
     margin-bottom: 2%;
     margin-left: 80%;
     color: white;
+    
+  }
+
+  .top .twitter{
+    margin-bottom: 2%;
+    color: white;
+  }
+
+  /* .top .facebook {
+   margin-right: 18%;
+   margin-bottom: -3%;
+   margin-left: 80%;
+   color: white;
+   display: flex;
+   align-items: center;
   }
 
   .top .twitter {
-    margin-bottom: 0%;
+    margin-right: 15%;
+    margin-left: 84%;
     color: white;
-  }
+  } */
 
   .content {
     display: flex;
